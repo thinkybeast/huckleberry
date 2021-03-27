@@ -31,7 +31,8 @@ header {
 p {
   margin: 24px 0;
 }
-header p {
+.intro-chunk p {
+  line-height: 1.4;
   font-size: 1.25rem;
 }
 
@@ -45,7 +46,7 @@ main {
   padding: 64px 0 48px;
 }
 
-main p {
+.card p {
   line-height: 1.5;
 }
 
@@ -64,25 +65,22 @@ h2 {
 .max-width-wrapper {
   max-width: 768px;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .intro-chunk {
-  padding: 0px 48px;
   max-width: 480px;
 }
 
 .card {
-  padding: 0px 48px;
-  padding-top: 8px;
+  padding: 18px;
+  margin: 0 -24px;
   border-bottom: 8px solid var(--color-grey-30);
-}
-
-.card {
   background-color: var(--color-grey-100);
 }
 
 .indented-heading {
-  margin-left: -64px;
-  padding: 24px 64px;
+  margin-left: -32px;
+  padding: 24px 32px;
   width: fit-content;
 }
